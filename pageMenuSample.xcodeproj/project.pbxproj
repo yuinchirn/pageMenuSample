@@ -13,6 +13,10 @@
 		9507D8A01AF04E3B009B5706 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9507D89F1AF04E3B009B5706 /* Images.xcassets */; };
 		9507D8A31AF04E3B009B5706 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9507D8A11AF04E3B009B5706 /* LaunchScreen.xib */; };
 		9507D8AF1AF04E3B009B5706 /* pageMenuSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9507D8AE1AF04E3B009B5706 /* pageMenuSampleTests.swift */; };
+		9507D8B91AF04E42009B5706 /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9507D8B81AF04E42009B5706 /* CAPSPageMenu.swift */; };
+		9507D8C51AF05B7C009B5706 /* Test1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9507D8C41AF05B7C009B5706 /* Test1ViewController.swift */; };
+		9507D8C71AF05B86009B5706 /* Test2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9507D8C61AF05B86009B5706 /* Test2ViewController.swift */; };
+		9507D8FB1AF07878009B5706 /* Test3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9507D8FA1AF07878009B5706 /* Test3ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		9507D8A81AF04E3B009B5706 /* pageMenuSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pageMenuSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9507D8AD1AF04E3B009B5706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9507D8AE1AF04E3B009B5706 /* pageMenuSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageMenuSampleTests.swift; sourceTree = "<group>"; };
+		9507D8B81AF04E42009B5706 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
+		9507D8C41AF05B7C009B5706 /* Test1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test1ViewController.swift; sourceTree = "<group>"; };
+		9507D8C61AF05B86009B5706 /* Test2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test2ViewController.swift; sourceTree = "<group>"; };
+		9507D8FA1AF07878009B5706 /* Test3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test3ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,10 @@
 			children = (
 				9507D8981AF04E3B009B5706 /* AppDelegate.swift */,
 				9507D89A1AF04E3B009B5706 /* ViewController.swift */,
+				9507D8B81AF04E42009B5706 /* CAPSPageMenu.swift */,
+				9507D8C41AF05B7C009B5706 /* Test1ViewController.swift */,
+				9507D8C61AF05B86009B5706 /* Test2ViewController.swift */,
+				9507D8FA1AF07878009B5706 /* Test3ViewController.swift */,
 				9507D89C1AF04E3B009B5706 /* Main.storyboard */,
 				9507D89F1AF04E3B009B5706 /* Images.xcassets */,
 				9507D8A11AF04E3B009B5706 /* LaunchScreen.xib */,
@@ -213,7 +225,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9507D89B1AF04E3B009B5706 /* ViewController.swift in Sources */,
+				9507D8C71AF05B86009B5706 /* Test2ViewController.swift in Sources */,
+				9507D8C51AF05B7C009B5706 /* Test1ViewController.swift in Sources */,
 				9507D8991AF04E3B009B5706 /* AppDelegate.swift in Sources */,
+				9507D8FB1AF07878009B5706 /* Test3ViewController.swift in Sources */,
+				9507D8B91AF04E42009B5706 /* CAPSPageMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +425,7 @@
 				9507D8B41AF04E3B009B5706 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9507D8B51AF04E3B009B5706 /* Build configuration list for PBXNativeTarget "pageMenuSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +434,7 @@
 				9507D8B71AF04E3B009B5706 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
